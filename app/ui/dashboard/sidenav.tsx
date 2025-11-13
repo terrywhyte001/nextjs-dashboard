@@ -1,10 +1,14 @@
+import NavLinks from '@/app/ui/dashboard/nav-links';
+
 export default function SideNav() {
   return (
-    <div className="bg-blue-600 text-white p-4 h-screen">
-      <p className="font-bold text-lg mb-6">Dashboard</p>
-      <nav className="space-y-4">
-        {/* Navigation links will be added here */}
-      </nav>
+    <div className="flex h-full flex-col px-3 py-4 md:px-2">
+      <div className="mb-2 flex h-20 items-end justify-start rounded-md bg-blue-600 p-4 md:h-40">
+        {/* Logo placeholder */}
+      </div>
+      <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">
+        <NavLinks />
+      </div>
     </div>
   );
 }
