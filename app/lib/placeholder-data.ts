@@ -1,50 +1,48 @@
-// This file contains placeholder data that you'll be replacing with real data in the Data Fetching chapter:
-// https://nextjs.org/learn/dashboard-app/fetching-data
 const users = [
   {
-    id: '410544b2-4001-4271-9855-fec4b6a6442a',
+    id: '410544b2-4001-4271-9855-fcc923e1520a',
     name: 'User',
     email: 'user@nextmail.com',
-    password: '123456',
+    password: 'password123',
   },
 ];
 
 const customers = [
   {
-    id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
+    id: 'd6e15727-9fe1-4961-8626-2c1f1a3cd3a3',
     name: 'Evil Rabbit',
     email: 'evil@rabbit.com',
-    image_url: '/customers/evil-rabbit.png',
+    image_url: '/customers/evil-rabbit.jpg',
   },
   {
-    id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
+    id: '3958dc9e-712f-404b-b4cc-38d841556356',
     name: 'Delba de Oliveira',
     email: 'delba@oliveira.com',
-    image_url: '/customers/delba-de-oliveira.png',
+    image_url: '/customers/delba-de-oliveira.jpg',
   },
   {
-    id: '3958dc9e-742f-4377-85e9-fec4b6a6442a',
+    id: '76d65c26-f784-44a2-ac19-586678f7ece0',
     name: 'Lee Robinson',
     email: 'lee@robinson.com',
-    image_url: '/customers/lee-robinson.png',
+    image_url: '/customers/lee-robinson.jpg',
   },
   {
-    id: '76d65c26-f784-44a2-ac19-586678f7c2f2',
+    id: 'cc27c14a-0acf-4f4a-9c30-5cb08cba20f9',
     name: 'Michael Novotny',
     email: 'michael@novotny.com',
-    image_url: '/customers/michael-novotny.png',
+    image_url: '/customers/michael-novotny.jpg',
   },
   {
-    id: 'CC27C14A-0ACF-4F4A-A6C9-D45682C144B9',
+    id: '13d08895-742b-4377-a8bd-2e7fb322d45a',
     name: 'Amy Burns',
     email: 'amy@burns.com',
-    image_url: '/customers/amy-burns.png',
+    image_url: '/customers/amy-burns.jpg',
   },
   {
-    id: '13D07535-C59E-4157-A011-F8D2EF4E0CBB',
+    id: '2ced3c0d-c69b-4daa-b3d9-f82cbc34d296',
     name: 'Balazs Orban',
     email: 'balazs@orban.com',
-    image_url: '/customers/balazs-orban.png',
+    image_url: '/customers/balazs-orban.jpg',
   },
 ];
 
@@ -88,7 +86,7 @@ const invoices = [
   {
     customer_id: customers[0].id,
     amount: 666,
-    status: 'pending',
+    status: 'paid',
     date: '2023-06-27',
   },
   {
@@ -115,18 +113,6 @@ const invoices = [
     status: 'paid',
     date: '2023-08-19',
   },
-  {
-    customer_id: customers[5].id,
-    amount: 8945,
-    status: 'paid',
-    date: '2023-06-03',
-  },
-  {
-    customer_id: customers[2].id,
-    amount: 1000,
-    status: 'paid',
-    date: '2022-06-05',
-  },
 ];
 
 const revenue = [
@@ -140,8 +126,8 @@ const revenue = [
   { month: 'Aug', revenue: 3700 },
   { month: 'Sep', revenue: 2500 },
   { month: 'Oct', revenue: 2800 },
-  { month: 'Nov', revenue: 3000 },
-  { month: 'Dec', revenue: 4800 },
+  { month: 'Nov', revenue: 3900 },
+  { month: 'Dec', revenue: 4200 },
 ];
 
 export { users, customers, invoices, revenue };
